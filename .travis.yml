@@ -1,12 +1,12 @@
-install: make dep
-
-./configure && make && make test
-
 language: c
 
-script: scons
-
 compiler: gcc
+
+install: make dep
+
+before_script: make clean
+
+script:  make && make test
 
 #before_install:
 #- test -n $CC && unset CC
