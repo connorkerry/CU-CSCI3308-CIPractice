@@ -23,7 +23,7 @@ double coord_2d_area_triangle(const coord_2d_t* a, const coord_2d_t* b, const co
     double area = 0.0;
     area = ((double) a->x*(b->y - c->y) +(double) b->x*(c->y - a->y) +(double) c->x*(a->y - b->y) ) / 2.0;
     if (area < 0) {
-        area = -1.00*area (double);
+        area = (double)-1.00*area;
     }
     return area;
 }
