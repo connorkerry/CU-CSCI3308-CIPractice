@@ -18,7 +18,9 @@
 /* coord_2d_area_triangle Test */ 
 START_TEST(test_2d_area_triangle)
 {
-    coord_2d_t a, b, c;
+    coord_2d_t a;
+    coord_2d_t b;
+    coord_2d_t c;
     
     a.x = b.x = 0; a.y = 0; b.y = 1;
     c.x = 1; c.y = 0;

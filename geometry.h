@@ -17,7 +17,7 @@ typedef struct coord_2d {
 } coord_2d_t;
 
 /* Return the 2D area of the triangle between three 2D coordinates */
-double coord_2d_area_triangle(const coord_2d_t* a, const coord_2d_t* b, const coord_2d_t* c)
+double coord_2d_area_triangle(const coord_2d_t* a, const coord_2d_t* b, const coord_2d_t* c);
 
 /* Return the distance between two 2D coordinates */
 double coord_2d_dist(const coord_2d_t* a, const coord_2d_t* b);
