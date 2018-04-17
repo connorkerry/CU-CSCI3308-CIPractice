@@ -5,6 +5,8 @@
  * Summer 2014
  *
  * This file contains a simple geomtery functions.
+ * 
+ * Edited by Connor Kerry and Guy Margalit on Apr 17 2018
  *
  */
 

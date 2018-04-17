@@ -1,3 +1,7 @@
+# Connor Kerry and Guy Margalit
+# Apr 17 2018
+# CI Practice: .travis.yml file
+
 sudo: required
 
 language: c
@@ -10,5 +14,3 @@ before_script: make clean
 
 script:  make && make test
 
-#before_install:
-#- test -n $CC && unset CC

@@ -1,5 +1,6 @@
 # Andy Sayler
 # CI Practice
+# Edited by Connor Kerry and Guy Margalit on Apr 17 2018
 # Summer 2014
 
 CC = gcc

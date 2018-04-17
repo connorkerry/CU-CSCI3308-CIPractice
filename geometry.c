@@ -6,6 +6,8 @@
  *
  * This file contains a simple geomtery functions.
  *
+ * Edited By: Connor Kerry and Guy Margalit on Apr 17 2018
+ *
  */
 
 #include <stdlib.h>
